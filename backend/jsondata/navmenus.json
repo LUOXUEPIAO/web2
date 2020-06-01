@@ -1,0 +1,350 @@
+[{
+        "id": 0,
+        "path": "/home",
+        "alias": "首页",
+        "componnent":"Home"
+    },
+    {
+        "id": 1,
+        "path": "/xygk/:id",
+        "alias": "学院概况",
+        "redirect":"/xygk/xyjj",
+        "children": [{
+                "id": 11,
+                "path": "/xygk/xyjj",
+                "alias": "学院简介",
+                "componnent":"Xyjj"
+            },
+            {
+                "id": 12,
+                "path": "/xygk/xyry",
+                "alias": "学院荣誉",
+                "componnent":"Xyry"
+            },
+            {
+                "id": 13,
+                "path": "/xygk/zysz",
+                "alias": "专业设置",
+                "componnent":"Xyjj",
+                "children": [{
+                        "id": 131,
+                        "path": "/xygk/zysz/bkzy",
+                        "alias": "本科专业",
+                        "componnent":"Bkzy"
+                    },
+                    {
+                        "id": 132,
+                        "path": "/xygk/zysz/zkzy",
+                        "alias": "专科专业",
+                        "componnent":"Zkzy"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "path": "/xygk/zzjg",
+                "alias": "组织结构",
+                "componnent":"Xyjj",
+                "children": [{
+                        "id": 141,
+                        "path": "/xygk/zzjg/gljg",
+                        "alias": "管理机构",
+                        "componnent":"Gljg"
+                    },
+                    {
+                        "id": 142,
+                        "path": "/xygk/zzjg/zysys",
+                        "alias": "专业实验室",
+                        "componnent":"Zysys"
+                    },
+                    {
+                        "id": 143,
+                        "path": "/xygk/zzjg/xszz",
+                        "alias": "学生组织",
+                        "componnent":"Xszz"
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "path": "/xygk/szll",
+                "alias": "师资力量",
+                "componnent":"Szll",
+                "children": [{
+                        "id": 151,
+                        "path": "/xygk/szll/xyld",
+                        "alias": "学院领导及学术带头人",
+                        "componnent":"Xyld"
+                    },
+                    {
+                        "id": 152,
+                        "path": "/xygk/szll/jsbs",
+                        "alias": "教授及博士",
+                        "componnent":"Jsbs"
+                    },
+                    {
+                        "id": 153,
+                        "path": "/xygk/szll/ssxjs",
+                        "alias": "双师型教师",
+                        "componnent":"Ssxjs"
+                    }
+                ]
+            }
+        ]
+    }, {
+        "id": 2,
+        "path": "/jx",
+        "alias": "教学",
+        "componnent":"Jx",
+        "children": [{
+                "id": 21,
+                "path": "/jx/zyfxss",
+                "alias": "专业方向双师型教师负责制",
+                "componnent":"Zyfxss",
+                "children": [{
+                        "id": 211,
+                        "path": "/jx/zyfxss/fxjs",
+                        "alias": "方向介绍",
+                        "componnent":"Zxjs"
+                    },
+                    {
+                        "id": 212,
+                        "path": "/jx/zyfxss/pyms",
+                        "alias": "培养模式",
+                        "componnent":"Pyms"
+                    },
+                    {
+                        "id": 213,
+                        "path": "/jx/zyfxss/fxts",
+                        "alias": "方向特色",
+                        "componnent":"Fxts"
+                    }, {
+                        "id": 214,
+                        "path": "/jx/zyfxss/dxcg",
+                        "alias": "典型成果",
+                        "componnent":"Dxcg"
+                    }, {
+                        "id": 215,
+                        "path": "/jx/zyfxss/gzbd",
+                        "alias": "关注报道",
+                        "componnent":"Gzbd"
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "path": "/jx/tssys",
+                "alias": "特色实验室",
+                "componnent":"Tssys"
+            }
+        ]
+    }, {
+
+        "id": 3,
+        "path": "/ky",
+        "alias": "科研",
+        "componnent":"Xyjj",
+        "children": [{
+                "id": 31,
+                "path": "/ky/jsky",
+                "alias": "教师科研",
+                "componnent":"Jsky",
+                "children": [{
+                        "id": 311,
+                        "path": "/ky/jsky/kylw",
+                        "alias": "科研论文",
+                        "componnent":"Kylw"
+                    },
+                    {
+                        "id": 312,
+                        "path": "/ky/jsky/jglw",
+                        "alias": "教改论文",
+                        "componnent":"Jglw"
+                    },
+                    {
+                        "id": 313,
+                        "path": "/ky/jsky/xqhzxm",
+                        "alias": "校企合作项目",
+                        "componnent":"Xqhzxm"
+                    }, {
+                        "id": 314,
+                        "path": "/ky/jsky/jgxm",
+                        "alias": "教改项目",
+                        "componnent":"Jgxm"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "path": "/ky/xsky",
+                "alias": "学生科研",
+                "componnent":"Xsky",
+                "children": [{
+                    "id": 321,
+                    "path": "/ky/xsky/kylw",
+                    "alias": "科研论文",
+                    "componnent":"Kylw"
+                }]
+            }
+        ]
+    }, {
+
+        "id": 4,
+        "path": "/pycg",
+        "alias": "培养成果",
+        "componnent":"Pycg",
+        "children": [{
+                "id": 41,
+                "path": "/pycg/zyjs",
+                "alias": "专业竞赛",
+                "componnent":"Zyjs",
+                "children": [{
+                        "id": 411,
+                        "path": "/pycg/zyjs/jsjj",
+                        "alias": "竞赛简介",
+                        "componnent":"Jsjj"
+                    },
+                    {
+                        "id": 412,
+                        "path": "/pycg/zyjs/cgzs",
+                        "alias": "成果展示",
+                        "componnent":"Cgzs"
+                    },
+                    {
+                        "id": 413,
+                        "path": "/pycg/zyjs/jsfc",
+                        "alias": "教师风采",
+                        "componnent":"Jsfc"
+                    },
+                    {
+                        "id": 414,
+                        "path": "/pycg/zyjs/zdbf",
+                        "alias": "指导办法",
+                        "componnent":"Zdbf"
+                    }
+                ]
+            },
+            {
+                "id": 42,
+                "path": "/pycg/lwfb",
+                "alias": "论文发表",
+                "componnent":"Lwfb"
+            },
+            {
+                "id": 43,
+                "path": "/pycg/jcxy",
+                "alias": "杰出校友",
+                "componnent":"Jcxy",
+                "children": [{
+                        "id": 431,
+                        "path": "/pycg/jcxy/jydx",
+                        "alias": "就业典型",
+                        "componnent":"Jydx"
+                    },
+                    {
+                        "id": 432,
+                        "path": "/pycg/jcxy/szdx",
+                        "alias": "深造典型",
+                        "componnent":"Szdx"
+                    },
+                    {
+                        "id": 433,
+                        "path": "/pycg/jcxy/xyzf",
+                        "alias": "校友专访",
+                        "componnent":"Xyzf"
+                    }
+                ]
+            }
+
+
+
+        ]
+    }, {
+
+        "id": 5,
+        "path": "/djgz",
+        "alias": "党建工作",
+        "componnent":"Djgz"
+    }, {
+
+        "id": 6,
+        "path": "/xsgz",
+        "alias": "学生工作",
+        "componnent":"Xsgz",
+        "children":[
+            {
+                "id": 61,
+                "path": "/xsgz/xszz",
+                "alias": "学生组织",
+                "children": [{
+                        "id": 611,
+                        "path": "/xsgz/xszz/xsh",
+                        "alias": "学生会",
+                        "componnent":"Xsh"
+                    },
+                    {
+                        "id": 612,
+                        "path": "/xsgz/xszz/tzz",
+                        "alias": "团总支",
+                        "componnent":"Tzz"
+                    },
+                    {
+                        "id": 613,
+                        "path": "/xsgz/xszz/gdxh",
+                        "alias": "各大协会",
+                        "componnent":"Gdxh"
+                    }
+                ]
+            },
+            {
+                "id": 62,
+                "path": "/xsgz/xshd",
+                "alias": "学生活动",
+                "componnent":"Xshd",
+                "children": [{
+                        "id": 621,
+                        "path": "/xsgz/xshd/xjhd",
+                        "alias": "校级活动",
+                        "componnent":"Xjhd"
+                    },
+                    {
+                        "id": 622,
+                        "path": "/xsgz/xshd/tzjhd",
+                        "alias": "学院团总支活动",
+                        "componnent":"Xjhd"
+                    },
+                    {
+                        "id": 623,
+                        "path": "/xsgz/xshd/bjhd",
+                        "alias": "学院班级活动",
+                        "componnent":"Bjhd"
+                    },
+                    {
+                        "id": 624,
+                        "path": "/xsgz/xshd/wyhd",
+                        "alias": "文艺活动",
+                        "componnent":"Wjhd"
+                    }
+                ]
+            }
+
+        ]
+
+    }, {
+
+        "id": 7,
+        "path": "/zsgz",
+        "alias": "招生工作",
+        "children": [{
+            "id": 71,
+            "path": "/zsgz/zszc",
+            "alias": "招生政策"
+        },
+        {
+            "id": 73,
+            "path": "/xsgz/sxjydt",
+            "alias": "实习就业动态"
+        }
+    ]
+    }
+]
